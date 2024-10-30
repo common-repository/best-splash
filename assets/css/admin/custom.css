@@ -1,0 +1,99 @@
+.wrap{
+	/*background:#fff;*/
+	box-shadow:0 0 1px rgba(0, 0, 0, 0.15); 
+	padding: 10px;
+}
+table{
+	box-shadow:0 0 1px rgba(0, 0, 0, 0.15);
+	background: #fff;
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 70%;
+	font-weight: bold;
+}
+.splashTitle{
+	width: 10%;
+}
+#SplashImage{
+	display: none;
+}
+#SplashImage2{
+	display: block;
+}
+.SplashBtn{
+	color: #fff;
+	padding: 5px;
+	box-shadow:0 0 1px rgba(0, 0, 0, 0.15);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	background:#555;
+}
+img.SplashInnerImage{
+	border:1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	cursor: pointer;
+}
+img.SplashInnerImage:hover{
+	border:1px solid #006799;
+}
+.splashSelect{
+	display: none !important;
+}
+.selected{
+	border:1px solid #006799 !important;	
+}
+#loading-img {
+	background: url("http://www.chimply.com/images/samples/classic-spinner/animatedEllipse.gif") center center no-repeat;
+    display: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 33%;
+    left: 1%;
+    right: 1%;
+    margin: auto;
+}
+.container{
+    height: 300px;
+    background: #000;
+    color: #fff;
+}
+.group {
+    position: relative;
+    width: 100%;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #eed3d7;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0px;
+  right: 21px;
+  /* Each alert has its own width */
+  float: right;
+  clear: right;
+  background-color: white;
+}
+
+.alert-red {
+  color: white;
+  background-color: #DA4453;
+}
+.alert-green {
+  color: white;
+  background-color: #37BC9B;
+}
+.alert-blue {
+  color: white;
+  background-color: #4A89DC;
+}
+.alert-yellow {
+  color: white;
+  background-color: #F6BB42;
+}
+.alert-orange {
+  color:white;
+  background-color: #E9573F;
+}
